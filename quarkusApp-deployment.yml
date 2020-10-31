@@ -35,7 +35,7 @@ spec:
       containers:
       - image: ffzs/quarkus_demo
         name: quarkus
-        imagePullPolicy: always  #设置从本地拉取 默认always
+        imagePullPolicy: Always  #设置从本地拉取 默认always
         env:
         - name: POSTGRE_HOST
           value: 'quarkus-postgre'
